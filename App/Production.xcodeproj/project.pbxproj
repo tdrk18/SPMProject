@@ -11,6 +11,7 @@
 		B910BC93274A2CAB001B0A23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B910BC92274A2CAB001B0A23 /* ContentView.swift */; };
 		B910BC95274A2CAC001B0A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B910BC94274A2CAC001B0A23 /* Assets.xcassets */; };
 		B910BC98274A2CAC001B0A23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B910BC97274A2CAC001B0A23 /* Preview Assets.xcassets */; };
+		B91BF603274A301C00D355F5 /* AppPackage in Frameworks */ = {isa = PBXBuildFile; productRef = B91BF602274A301C00D355F5 /* AppPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B91BF603274A301C00D355F5 /* AppPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +39,7 @@
 			children = (
 				B910BC8F274A2CAB001B0A23 /* iOS */,
 				B910BC8E274A2CAB001B0A23 /* Products */,
+				B91BF601274A301C00D355F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +70,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B91BF601274A301C00D355F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +93,9 @@
 			dependencies = (
 			);
 			name = Production;
+			packageProductDependencies = (
+				B91BF602274A301C00D355F5 /* AppPackage */,
+			);
 			productName = Production;
 			productReference = B910BC8D274A2CAB001B0A23 /* Production.app */;
 			productType = "com.apple.product-type.application";
@@ -343,6 +356,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B91BF602274A301C00D355F5 /* AppPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B910BC85274A2CAA001B0A23 /* Project object */;
 }

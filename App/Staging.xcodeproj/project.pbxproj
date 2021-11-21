@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B91BF600274A301200D355F5 /* AppPackage in Frameworks */ = {isa = PBXBuildFile; productRef = B91BF5FF274A301200D355F5 /* AppPackage */; };
 		B9D24672274A2A5300A2B4AE /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D24671274A2A5300A2B4AE /* App.swift */; };
 		B9D24674274A2A5300A2B4AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D24673274A2A5300A2B4AE /* ContentView.swift */; };
 		B9D24676274A2A5500A2B4AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D24675274A2A5500A2B4AE /* Assets.xcassets */; };
@@ -26,17 +27,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B91BF600274A301200D355F5 /* AppPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B91BF5FE274A301200D355F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B9D24665274A2A5300A2B4AE = {
 			isa = PBXGroup;
 			children = (
 				B9D24670274A2A5300A2B4AE /* iOS */,
 				B9D2466F274A2A5300A2B4AE /* Products */,
+				B91BF5FE274A301200D355F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +93,9 @@
 			dependencies = (
 			);
 			name = Staging;
+			packageProductDependencies = (
+				B91BF5FF274A301200D355F5 /* AppPackage */,
+			);
 			productName = Staging;
 			productReference = B9D2466E274A2A5300A2B4AE /* Staging.app */;
 			productType = "com.apple.product-type.application";
@@ -343,6 +356,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B91BF5FF274A301200D355F5 /* AppPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B9D24666274A2A5300A2B4AE /* Project object */;
 }
