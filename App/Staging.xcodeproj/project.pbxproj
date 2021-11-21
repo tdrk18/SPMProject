@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9D24672274A2A5300A2B4AE /* StagingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D24671274A2A5300A2B4AE /* StagingApp.swift */; };
+		B9D24672274A2A5300A2B4AE /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D24671274A2A5300A2B4AE /* App.swift */; };
 		B9D24674274A2A5300A2B4AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D24673274A2A5300A2B4AE /* ContentView.swift */; };
 		B9D24676274A2A5500A2B4AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D24675274A2A5500A2B4AE /* Assets.xcassets */; };
 		B9D24679274A2A5500A2B4AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D24678274A2A5500A2B4AE /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		B9D2466E274A2A5300A2B4AE /* Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Staging.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9D24671274A2A5300A2B4AE /* StagingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StagingApp.swift; sourceTree = "<group>"; };
+		B9D24671274A2A5300A2B4AE /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		B9D24673274A2A5300A2B4AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B9D24675274A2A5500A2B4AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9D24678274A2A5500A2B4AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		B9D24665274A2A5300A2B4AE = {
 			isa = PBXGroup;
 			children = (
-				B9D24670274A2A5300A2B4AE /* Staging */,
+				B9D24670274A2A5300A2B4AE /* iOS */,
 				B9D2466F274A2A5300A2B4AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,15 +48,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B9D24670274A2A5300A2B4AE /* Staging */ = {
+		B9D24670274A2A5300A2B4AE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B9D24671274A2A5300A2B4AE /* StagingApp.swift */,
+				B9D24671274A2A5300A2B4AE /* App.swift */,
 				B9D24673274A2A5300A2B4AE /* ContentView.swift */,
 				B9D24675274A2A5500A2B4AE /* Assets.xcassets */,
 				B9D24677274A2A5500A2B4AE /* Preview Content */,
 			);
-			path = Staging;
+			path = iOS;
 			sourceTree = "<group>";
 		};
 		B9D24677274A2A5500A2B4AE /* Preview Content */ = {
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9D24674274A2A5300A2B4AE /* ContentView.swift in Sources */,
-				B9D24672274A2A5300A2B4AE /* StagingApp.swift in Sources */,
+				B9D24672274A2A5300A2B4AE /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +268,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Staging/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "iOS/Preview\\ Content";
 				DEVELOPMENT_TEAM = MTBJ4L8FSV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -298,7 +298,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Staging/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "iOS/Preview\\ Content";
 				DEVELOPMENT_TEAM = MTBJ4L8FSV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

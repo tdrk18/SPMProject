@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct StagingApp: App {
+struct SPMProjectApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
