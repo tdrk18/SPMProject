@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F896D919275DFE12007AAC85 /* DevelopmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896D918275DFE12007AAC85 /* DevelopmentApp.swift */; };
+		F896D919275DFE12007AAC85 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896D918275DFE12007AAC85 /* App.swift */; };
 		F896D91B275DFE12007AAC85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896D91A275DFE12007AAC85 /* ContentView.swift */; };
 		F896D91D275DFE14007AAC85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F896D91C275DFE14007AAC85 /* Assets.xcassets */; };
 		F896D920275DFE14007AAC85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F896D91F275DFE14007AAC85 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		F896D915275DFE12007AAC85 /* Development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Development.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F896D918275DFE12007AAC85 /* DevelopmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopmentApp.swift; sourceTree = "<group>"; };
+		F896D918275DFE12007AAC85 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		F896D91A275DFE12007AAC85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F896D91C275DFE14007AAC85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F896D91F275DFE14007AAC85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		F896D90C275DFE12007AAC85 = {
 			isa = PBXGroup;
 			children = (
-				F896D917275DFE12007AAC85 /* Development */,
+				F896D917275DFE12007AAC85 /* iOS */,
 				F896D916275DFE12007AAC85 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,15 +48,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F896D917275DFE12007AAC85 /* Development */ = {
+		F896D917275DFE12007AAC85 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F896D918275DFE12007AAC85 /* DevelopmentApp.swift */,
+				F896D918275DFE12007AAC85 /* App.swift */,
 				F896D91A275DFE12007AAC85 /* ContentView.swift */,
 				F896D91C275DFE14007AAC85 /* Assets.xcassets */,
 				F896D91E275DFE14007AAC85 /* Preview Content */,
 			);
-			path = Development;
+			path = iOS;
 			sourceTree = "<group>";
 		};
 		F896D91E275DFE14007AAC85 /* Preview Content */ = {
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F896D91B275DFE12007AAC85 /* ContentView.swift in Sources */,
-				F896D919275DFE12007AAC85 /* DevelopmentApp.swift in Sources */,
+				F896D919275DFE12007AAC85 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +268,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Development/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -296,7 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Development/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
