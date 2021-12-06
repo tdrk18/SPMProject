@@ -5,11 +5,11 @@
 //  Created by tdrk18 on 2021/11/21.
 //
 
-import AppPackage
+import AppKit
 import SwiftUI
 
 struct ContentView: View {
-    let package = AppPackage()
+    let package = AppKit()
 
     var body: some View {
         Text(package.text)

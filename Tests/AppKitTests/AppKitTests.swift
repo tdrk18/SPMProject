@@ -1,11 +1,11 @@
 import XCTest
-@testable import AppPackage
+@testable import AppKit
 
-final class AppPackageTests: XCTestCase {
+final class AppKitTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(AppPackage().text, "Hello, World!")
+        XCTAssertEqual(AppKit().text, "Hello, World!")
     }
 }
